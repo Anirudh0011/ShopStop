@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".empty_cart"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Oops! Your Cart is Empty.Try to fill it ASAP."
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:padding="10dp"
+        android:textColor="@color/cart"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:text="I want to fill my cart."
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:id="@+id/main"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/cart"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/backgroung"/>
+
+</RelativeLayout>

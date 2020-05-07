@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".single_product">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/peach"
+        android:id="@+id/tool"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/left1"
+            android:id="@+id/backit"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:text="ShopStop"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical" />
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/cart"
+            android:id="@+id/singleCart2"
+            android:layout_marginRight="5dp"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tool"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apple Macbook Air"
+            android:paddingTop="20dp"
+            android:id="@+id/Sname"
+            android:textColor="@color/cart"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="17sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/apple"
+            android:id="@+id/Spic"
+            android:paddingTop="20dp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price:"
+                android:textSize="16sp"
+                android:textColor="@color/cart"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="75,990/-"
+                android:textSize="16sp"
+                android:id="@+id/Sprice"
+                android:textColor="@color/cart"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"/>
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:-"
+            android:textStyle="bold"
+            android:textColor="@color/cart"
+            android:textSize="16sp"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="@string/des"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:paddingTop="5dp">
+        <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Buy Now"
+                android:paddingLeft="10dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="@color/cart"
+                android:id="@+id/add"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Add to Cart"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:background="@color/cart"
+                android:id="@+id/buy"
+                android:gravity="center" />
+        </LinearLayout>
+</RelativeLayout>

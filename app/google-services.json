@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "436511701462",
+    "firebase_url": "https://shopstop-339e2.firebaseio.com",
+    "project_id": "shopstop",
+    "storage_bucket": "shopstop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436511701462:android:b4720b36b45332c4",
+        "android_client_info": {
+          "package_name": "adventures.com.shopstop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436511701462-ua7bfql68edu9sni8936uapgmvukj4rq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "adventures.com.shopstop",
+            "certificate_hash": "55235f18312b4b4adf3a5140a35d866fd8739973"
+          }
+        },
+        {
+          "client_id": "436511701462-6ta280o5rik4lqiihfrcgnat5lb84u68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHPt0eCS6hQGtbx0JXEFKUUifxZDQM1qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436511701462-6ta280o5rik4lqiihfrcgnat5lb84u68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

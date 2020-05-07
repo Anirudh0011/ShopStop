@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sign_up">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:id="@+id/header"
+        android:paddingLeft="70dp"
+        android:paddingTop="30dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/cart"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shop"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:paddingTop="25dp"
+            android:textColor="@color/cart"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:paddingLeft="5dp"
+            android:textColor="#808080"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:id="@+id/scroll">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/sign_up">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textColor="@color/cart"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingTop="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="_____________________"
+            android:gravity="center"
+            android:paddingBottom="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/cart"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:singleLine="true"
+            android:hint="Enter Your First Name:"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Surname:"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/cart"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Enter Your Last Name:"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/cart"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/email"
+            android:hint="Enter Your Email Address:"
+            android:inputType="textEmailAddress"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone Number:"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/cart"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:hint="Enter Your Mobile Number:"
+            android:inputType="number"
+            android:id="@+id/number"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/cart"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:hint="Enter Your Password:"
+            android:inputType="textPassword"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Allow Terms and Conditions."
+            android:id="@+id/terms"
+            android:textColor="@color/cart"/>
+
+    </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/scroll"
+        android:gravity="center"
+       android:paddingTop="15dp">
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:src="@drawable/back"
+            android:id="@+id/back"
+            android:layout_gravity="center"
+            android:paddingRight="120dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:id="@+id/next"
+            android:src="@drawable/next"
+            android:paddingLeft="120dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

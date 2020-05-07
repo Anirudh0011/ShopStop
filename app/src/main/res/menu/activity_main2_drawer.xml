@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/cameras"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/laptops"
+            android:icon="@drawable/laptop"
+            android:title="Laptops" />
+        <item
+            android:id="@+id/mobiles"
+            android:icon="@drawable/phone"
+            android:title="Mobiles" />
+        <item
+            android:id="@+id/tablets"
+            android:icon="@drawable/tablet"
+            android:title="Tablets" />
+    </group>
+    
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/privacy"
+                android:icon="@drawable/document"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/rating"
+                android:icon="@drawable/star1"
+                android:title="Rate Us!" />
+            <item
+                android:id="@+id/location"
+                android:icon="@drawable/placeholder"
+                android:title="Locate Us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+
+
+        </menu>
+    </item>
+
+</menu>
